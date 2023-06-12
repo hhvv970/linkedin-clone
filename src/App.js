@@ -31,7 +31,6 @@ const App = () => {
       }
     });
   }, [dispatch]);
-  console.log(user);
   return (
     <div className="app">
       <Header />
